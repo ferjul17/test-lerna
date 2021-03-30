@@ -1,0 +1,9 @@
+{
+  "name": "test-lerna",
+  "scripts": {
+    "postinstall": "lerna exec rm -- -rf node_modules && lerna bootstrap --hoist"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

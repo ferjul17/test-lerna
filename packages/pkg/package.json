@@ -1,0 +1,6 @@
+{
+  "name": "pkg",
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+}
